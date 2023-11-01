@@ -17,4 +17,5 @@ def create_lookup_table(input_data):
     
 x,y = create_lookup_table(data)
 print(x)
+
         
