@@ -1,6 +1,4 @@
-import pandas as pd
+import re
 
-data = pd.read_csv('dataset\iris.data.txt',decimal=',')
-
-print(data)
-
+text = open(r"dataset\xiaoshuo.txt", "r", encoding="utf-8")
+print(text.read())
