@@ -25,9 +25,16 @@ print(f'{len(vocab)} unique characters')
 
 example_texts = ['abcdefg', 'xyz']
 
-chars = tf.strings.unicode_split(example_texts, input_encoding='UTF-8')
+chars = tf.strings.unicode_split(text, input_encoding='UTF-8')
 print(chars)
 ids_from_chars = tf.keras.layers.StringLookup(
     vocabulary=list(vocab), mask_token=None)
 ids = ids_from_chars(chars)
 print(ids)
+
+
+
+
+https_proxy = http://8.217.74.168:15673/
+http_proxy = http://8.217.74.168:15673/
+#ftp_proxy = http://proxy.yoyodyne.com:18023/
